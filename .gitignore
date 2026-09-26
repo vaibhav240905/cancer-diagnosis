@@ -1,0 +1,67 @@
+# -----------------------------
+# Python cache / bytecode
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+venv310/
+.venv/
+env/
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Build / packaging artifacts
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# -----------------------------
+# OS / editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Data and large assets
+# -----------------------------
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# -----------------------------
+# Model checkpoints / weights
+# -----------------------------
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# -----------------------------
+# Outputs
+# Default: ignore outputs, but keep figures visible if desired
+# -----------------------------
+outputs/*
+!outputs/figures/
+!outputs/figures/**
+!outputs/reports/
+!outputs/reports/**
+
+outputs/

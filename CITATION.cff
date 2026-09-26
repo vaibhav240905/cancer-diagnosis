@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this project in academic work, please cite it using this metadata."
+title: "Skin Cancer Detection using Segmentation + Classification"
+type: software
+authors:
+  - family-names: "Shreni"
+    given-names: "Saurabh Dwadash"
+    email: "saurabhshreni@gmail.com"
+license: "MIT"
+abstract: >
+  End-to-end skin lesion analysis pipeline using U-Net segmentation and
+  EfficientNet-B0 classification with ROI extraction, ROC-AUC evaluation,
+  and Grad-CAM explainability.
+keywords:
+  - skin cancer
+  - dermoscopy
+  - medical imaging
+  - segmentation
+  - classification
+  - pytorch
+repository-code: "https://github.com/saurabhshreni-cmyk/skin-cancer-detection"
+version: "1.0.0"
+date-released: 2026-04-07
