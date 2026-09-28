@@ -4,13 +4,13 @@ import torch
 # -------------------------
 # Required dataset paths
 # -------------------------
-ISIC2018_IMG_DIR = r"F:\SkinCancerProject\data\isic2018\images"
-ISIC2018_MASK_DIR = r"F:\SkinCancerProject\data\isic2018\masks"
+ISIC2018_IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "isic2018", "images")
+ISIC2018_MASK_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "isic2018", "masks")
 
-ISIC2020_IMG_DIR = r"F:\SkinCancerProject\data\isic2020\images"
-ISIC2020_CSV = r"F:\SkinCancerProject\data\isic2020\train.csv"
+ISIC2020_IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "isic2020", "images")
+ISIC2020_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "isic2020", "train.csv")
 
-PROJECT_ROOT = r"C:\Users\Saurabh\Desktop\PE2_Project"
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "outputs")
 CHECKPOINT_DIR = os.path.join(PROJECT_ROOT, "checkpoints")
 
